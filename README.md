@@ -1,2 +1,2 @@
 # Data-managment
-This is used for managing my project information
+Data-managment is used for managing my project information
