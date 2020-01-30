@@ -1,0 +1,22 @@
+We are going to perform Simple Linear Regression to Emp salary Data.
+Note: I am performaing ML with Python
+
+For this followed bellow steps
+1. Import important libraries(Like Numpy, Pandas, Matplotlib, Sklearn.LinearRegression)
+2. Import a data
+3. Seperate data into Dependent(Y) and independent Data set(X)
+4. Divide a data into traning annd testing dataset
+5. Implement classifier based on simple linear regression(y=B0+B1X B0:intercept B1:Slope)
+
+
+Step2:
+Pandas Used from importing data as: [DataSet = pandas.read_csv("...Path to dataset....//Data.csv")]
+
+Step3:
+I have saved X and Y using iloc as I have imported data using pandas it automaticaly creates dataframe so you can use a iloc with dataset as:
+X = DS.iloc[:,:-1].values
+y = DS.iloc[:,1].values
+Here you need to understand iloc takes two parameters 1st: No of row & 2nd: No of colomns
+
+Step4:
+import the cross_validation and using train_test_split seperate the X and Y inot train and test sets
