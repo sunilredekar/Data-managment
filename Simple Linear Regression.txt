@@ -20,3 +20,6 @@ Here you need to understand iloc takes two parameters 1st: No of row & 2nd: No o
 
 Step4:
 import the cross_validation and using train_test_split seperate the X and Y inot train and test sets
+
+Step5:
+import the linear regression and fit it wiith training dataset
