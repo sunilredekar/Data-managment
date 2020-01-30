@@ -7,7 +7,7 @@ For this followed bellow steps
 3. Seperate data into Dependent(Y) and independent Data set(X)
 4. Divide a data into traning annd testing dataset
 5. Implement classifier based on simple linear regression(y=B0+B1X B0:intercept B1:Slope)
-
+6. Show the result in grapth
 
 Step2:
 Pandas Used from importing data as: [DataSet = pandas.read_csv("...Path to dataset....//Data.csv")]
@@ -23,3 +23,7 @@ import the cross_validation and using train_test_split seperate the X and Y inot
 
 Step5:
 import the linear regression and fit it wiith training dataset
+
+Step6;
+ Used a matplotlib for showing a data 
+ Scatterplot used to show the test data and passed our regression line through those point.
