@@ -1,0 +1,4 @@
+we are discussing both random forest and decision tree.
+Desicion tree is a predictive model based on branching series of boolean tests
+  These smaller boolean tests are less complex than one stage classifier
+
